@@ -5,7 +5,7 @@ use warnings;
 
 use Carp;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 $VERSION = eval $VERSION;
 
 require XSLoader;
@@ -87,6 +87,10 @@ L<PerlGSL>
 
 =item *
 
+L<PerlGSL::Integration::SingleDim>
+
+=item *
+
 L<http://www.gnu.org/software/gsl/manual/html_node/Monte-Carlo-Integration.html>
 
 =back
@@ -106,5 +110,5 @@ Copyright (C) 2012 by Joel Berger
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-The GSL is licensed under the terms of the Gnu Public License (GPL)
+The GSL is licensed under the terms of the GNU General Public License (GPL)
 
